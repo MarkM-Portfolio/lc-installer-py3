@@ -1,0 +1,18 @@
+language: python3
+
+python3:
+ - "3.6"
+
+env:
+ - USE_JYTHON=true
+
+before_install:
+ - sudo apt-get install jython ant
+
+before_script:
+ - jython -c "print ''"
+
+script:
+ - ant
+ - ./runtest.sh
+

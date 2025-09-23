@@ -1,0 +1,9 @@
+*.bin linguist-language=Bin linguist-vendored=false
+*.gitignore linguist-language=Git linguist-vendored=false
+*.iml linguist-language=Iml linguist-vendored=false
+*.jazzignore linguist-language=Jazzignore linguist-vendored=false
+*.json linguist-language=JSON linguist-vendored=false
+*.lock linguist-language=Lock linguist-vendored=false
+*.properties linguist-language=Properties linguist-vendored=false
+*.xml linguist-language=Xml linguist-vendored=false
+*.yml linguist-language=YAML linguist-vendored=false
